@@ -1,1 +1,81 @@
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #333;
+  color: #fff;
+}
+
+header .logo img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.intro {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 1.2rem;
+}
+
+.subscription-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.subscription-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscription-form label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.subscription-form input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+.subscription-form button {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 250px;
+}
+
+.subscription-form button:hover {
+  background-color: #4cae4c;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #333;
+  color: white;
+}
 
