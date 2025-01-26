@@ -13,8 +13,6 @@ A simple, professional newsletter subscription website.
    ```bash
    git clone https://github.com/your-username/newsletter-website.git
 
-
-
 ### 6. Netlify Setup
 
 1. Go to [Netlify](https://www.netlify.com/).
